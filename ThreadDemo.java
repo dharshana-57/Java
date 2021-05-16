@@ -33,8 +33,8 @@ public class ThreadDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Hii ob1 =new Hii();
-		Helloo ob2 = new Helloo();
+		Runnable ob1 =new Hii();
+		Runnable ob2 = new Helloo();
 		
 		Thread t1 = new Thread(ob1);
 		Thread t2  =  new Thread(ob2);
